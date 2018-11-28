@@ -1,4 +1,6 @@
-﻿using System.Collections;
+// # Repeat Same codes, combine into one.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
