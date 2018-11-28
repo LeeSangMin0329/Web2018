@@ -1,5 +1,6 @@
 // # this class only exist when all players setting in scene.
 // # _localPlayerManager bind PlayerManager instance but don't use this variable.
+// # Recommend Use State pattern
 
 using System.Collections;
 using System.Collections.Generic;
