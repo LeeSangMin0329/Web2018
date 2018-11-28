@@ -222,6 +222,7 @@ namespace Com.Sangmin.Web2018
             }
 
             // Blood Effect Instantiate if you over damage.
+            // blood effect Seperated from RPC so call this line.
             InstantiateBlood();
 
             if (!photonView.isMine)
