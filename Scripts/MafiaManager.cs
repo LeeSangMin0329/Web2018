@@ -66,7 +66,6 @@ namespace Com.Sangmin.Web2018
         /// </summary>
         private void GameInit()
         {
-            // Fix it : PlayerManager _localPlayerManager = PlayerManager.LocalPlayerInstance;
             PlayerManager _localPlayerManager = PlayerManager.LocalPlayerInstance.GetComponent<PlayerManager>();
             _playerCount = PhotonNetwork.room.PlayerCount;
             _playerDeathCount = 0;
