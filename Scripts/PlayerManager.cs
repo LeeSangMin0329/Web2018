@@ -1,4 +1,6 @@
-﻿using System;
+// # Property name 'LocalPlayerInstance' -> 'LocalPlayerGameObject' (name ~Instance is ambiguous)
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
