@@ -67,6 +67,7 @@ namespace Com.Sangmin.Web2018
                 _ownAnimator.SetTrigger("Jump");
             }
 
+            //        -1 ~ 1
             _deltaX = Input.GetAxis("Horizontal");
             _deltaZ = Input.GetAxis("Vertical");
 
