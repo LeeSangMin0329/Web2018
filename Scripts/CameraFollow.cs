@@ -1,4 +1,6 @@
-﻿using System;
+// # 'followOnStart' is useless variable.
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
