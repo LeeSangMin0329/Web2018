@@ -1,4 +1,6 @@
-﻿using System.Collections;
+// # this class only exist when all players setting in scene.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -62,6 +64,7 @@ namespace Com.Sangmin.Web2018
         /// </summary>
         private void GameInit()
         {
+            // Fix it : PlayerManager _localPlayerManager = PlayerManager.LocalPlayerInstance;
             PlayerManager _localPlayerManager = PlayerManager.LocalPlayerInstance.GetComponent<PlayerManager>();
             _playerCount = PhotonNetwork.room.PlayerCount;
             _playerDeathCount = 0;
