@@ -1,4 +1,5 @@
 // # this class only exist when all players setting in scene.
+// # _localPlayerManager bind PlayerManager instance but don't use this variable.
 
 using System.Collections;
 using System.Collections.Generic;
@@ -81,7 +82,7 @@ namespace Com.Sangmin.Web2018
             if (PhotonNetwork.isMasterClient)
             {
                 _localPlayerManager.SetPlayerTag();
-                //PhotonNetwork.autoCleanUpPlayerObjects = false;
+                
                 PhotonNetwork.room.IsOpen = false;
             }
 
